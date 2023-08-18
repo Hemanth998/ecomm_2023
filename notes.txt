@@ -2,4 +2,4 @@ React router dom : <Outlet />  is used to specify where to render the children f
 
 Outlet is replaced by Listing or productdetail page according to the url route
 
-createRoutesFromElements : we can use JSX too to configure routes, using <Routes> and <Route>
+createRoutesFromElements : we can use JSX too to configure routes, using <Routes> and <Route> and createRoutesFromElements function

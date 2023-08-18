@@ -11,14 +11,14 @@ const products = [
     name: 'Product 2',
     description: 'This is product 2',
     price: 50,
-    rating: 4.2,
+    rating: 3.5,
   },
   {
     id: '3',
     name: 'Product 3',
     description: 'This is product 3',
     price: 20,
-    rating: 4.1,
+    rating: 2.5,
   },
 ];
 

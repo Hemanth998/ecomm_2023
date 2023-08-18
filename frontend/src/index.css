@@ -34,3 +34,8 @@ code {
   height: 300px;
   margin: 10px;
 }
+
+.radio-rating {
+  display: inline-block;
+  width: 100px;
+}
