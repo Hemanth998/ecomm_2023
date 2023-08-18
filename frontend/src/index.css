@@ -22,3 +22,15 @@ code {
   display: flex;
   /* flex-wrap: wrap; */
 }
+
+.cart-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-item {
+  border: 1px solid black;
+  width: 500px;
+  height: 300px;
+  margin: 10px;
+}

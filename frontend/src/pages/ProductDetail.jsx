@@ -19,9 +19,12 @@ const ProductDetail = () => {
         <button>Back</button>
       </Link>
       <h1>{product.name}</h1>
+      <img src="/default.jpg" alt="default" width="400" />
       <p>{product.description}</p>
       <p>{product.price}</p>
       <p>{product.rating}</p>
+
+      <button>Add to Cart</button>
     </div>
   );
 };

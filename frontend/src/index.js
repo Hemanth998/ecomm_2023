@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Listing from './pages/Listing';
 import ProductDetail from './pages/ProductDetail';
+import Cart from './pages/Cart';
 import reportWebVitals from './reportWebVitals';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: '/products/:productId',
         element: <ProductDetail />,
+      },
+      {
+        path: '/cart',
+        element: <Cart />,
       },
     ],
   },
